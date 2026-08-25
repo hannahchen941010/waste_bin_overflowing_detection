@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['empty', 'full', 'half-full', 'overflowing']
+
+roboflow:
+  workspace: tts-workspace-j6etv
+  project: waste-bin-fill-level-detect2-lxsf4-ootbk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tts-workspace-j6etv/waste-bin-fill-level-detect2-lxsf4-ootbk/dataset/1
